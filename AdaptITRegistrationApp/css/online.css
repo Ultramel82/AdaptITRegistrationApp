@@ -1,0 +1,206 @@
+﻿body {
+}
+
+.primaryContainer {
+    position: relative;
+}
+
+    #image {
+   
+        width:auto;
+        max-width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20.5px;
+        clear: none;
+        color: rgb(0, 0, 0);
+    }
+    #image_footer {
+   
+        width:50%;
+        max-width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20.5px;
+        clear: none;
+        color: rgb(0, 0, 0);
+    }
+
+    #box1 {
+        /*height: auto;*/
+        width: 50%;
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    #formheading_text {
+        float: none;
+        font-size: 1.2em;
+        width: auto;
+        height: auto;
+        text-align: center;
+        font-weight: normal;
+        line-height: 1em;
+        margin-left: auto;
+        margin-top: 15px;
+        clear: none;
+        min-height: 0px;
+        font-family: arial;
+         color: rgb(83, 110, 136);
+        margin-right: auto;
+    }
+
+    #forminfo_text {
+        float: none;
+        font-size: 1em;
+        /*width: 95.962073%;*/
+        width: 50%;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin-left: 2%;
+        margin-top: 13px;
+        clear: none;
+        min-height: 31px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    #formfooter_text {
+        float: none;
+        font-size: 1em;
+        /*width: 95.962073%;*/
+        width: 100%;
+        text-align: center;
+        font-weight: normal;
+        line-height: 1em;
+        margin-left: 2%;
+        margin-top: 13px;
+        clear: none;
+        min-height: 31px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        color: rgb(83, 110, 136);
+        padding-top:50px;
+    }
+
+    #required_text {
+    color: rgb(255, 0, 0);
+    }
+
+    #formgroup {
+        float: left;
+        height: 75.375px;
+        display: block;
+        text-align: left;
+        margin-left: 1.989548%;
+        margin-top: 10px;
+        clear: both;
+        width: 98%;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    #formlabel_text {
+        float: none;
+        font-size: 1em;
+        width: 70.627556%;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+        padding-left: 0em;
+        padding-right: 0em;
+        display: block;
+        min-height: 19px;
+        margin-top: 3px;
+        margin-left: 0%;
+        clear: none;
+        margin-bottom: 5px;
+    }
+
+    .textboxes {
+         float: none;
+        height: 45px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 3px;
+        font-size: 1em;
+        display: block;
+        width: 100%;
+        text-align: left;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+        border-top-color: rgb(96, 96, 96);
+        border-right-color: rgb(96, 96, 96);
+        border-bottom-color: rgb(96, 96, 96);
+        border-left-color: rgb(96, 96, 96);
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        text-transform: capitalize;
+    }
+
+
+    .valErrors {
+        color: rgb(255, 0, 0);
+    }
+
+    #buttondiv {
+        
+    }
+
+.buttons{
+    float: left;
+    height: 48px;
+    font-size: 1em;
+    margin-left: 44%;
+    margin-top: 20px;
+    clear: both;
+    width: 12.777536%;
+    background-color: #51c4e1;
+    font-family: Arial;
+    color: rgb(245, 245, 245);
+    margin-bottom: 5px;
+    margin-right: 44%;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.link_buttons {
+    float: left;
+    font-size: 1em;
+    font-family: Arial;
+    color: #51c4e1;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.link_buttons:hover {
+    color:gray;
+    text-decoration: underline;
+}
+
+.button_wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+ /* Contain floats: h5bp.com/q */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }

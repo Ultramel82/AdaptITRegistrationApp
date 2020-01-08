@@ -1,0 +1,74 @@
+﻿html {
+            font-family: Arial;
+            font-size: 12px;
+        }
+        #header_inner_wrapper {
+            position: relative;
+            width: 32%;
+            margin: auto;
+            background-color: #FFFFFF;
+        }
+
+        #header_bottom {
+            border-bottom: 2px solid #000000;
+            width: 100%;
+        }
+
+        #header_wrapper {
+            width: 100%;
+            background-color: #FFFFFF;
+        }
+        #content_wrapper{ position: relative;	float: left;	width:100%; }
+
+        #content_inner_wrapper {
+            
+            position: relative;
+            width: 70%;
+            margin: auto;
+            padding-top: 30px;
+        }
+
+        
+        #footer {
+            color: #000;
+        }
+
+        #footer_wrapper {
+            background: none;
+        }
+
+        .textbox, select {
+            width: 95%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        /*input[type=submit] {*/
+        .submit {
+            width: 100%;
+            background-color: #3cbeee;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+            /*input[type=submit]:hover {*/
+            .submit:hover {
+                background-color: #6D6E70;
+            }
+
+        #formdiv {
+            margin: auto;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+            width: 40%;
+        }
+
